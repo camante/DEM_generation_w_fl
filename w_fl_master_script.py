@@ -308,4 +308,4 @@ create_dem_cmd='create_dem.sh ' + name_cell_extents_dem + ' ' + dem_dlist + ' ' 
 #create_dem.sh /media/sf_E_win_lx/COASTAL_Act/camante/w_fl/software/gridding/name_cell_extents_dem.csv /media/sf_E_win_lx/COASTAL_Act/camante/w_fl/software/gridding/w_fl.datalist 5
 os.system(create_dem_cmd)
 
-print "Tested out git"
+print "Tested out git2"

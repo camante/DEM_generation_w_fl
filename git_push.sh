@@ -8,7 +8,8 @@ echo "git_push - Script that pushes code to git with user provided description."
 if [ ${#@} == 1 ]; 
 then
 #User inputs
-description=\"${1}\"
+description='\"${1}\"'
+#echo $description
 sudo git add --all
 sudo git commit -m $description
 sudo git push

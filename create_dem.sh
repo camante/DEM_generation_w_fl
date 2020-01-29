@@ -107,7 +107,7 @@ echo --Running mbgrid...
 mbgrid -I$datalist -O$dem_name \
 $mb_range \
 -A2 -D$x_dim_int/$y_dim_int -G3 -N \
--C810000000/3 -S0 -F1 -T0.25 -X0.1
+-C810000000/3 -S0 -F1 -T0.25 -X0.05
 
 # echo --Running mbgrid with no interpolation to test...
 # mbgrid -I$datalist -O$dem_name \
